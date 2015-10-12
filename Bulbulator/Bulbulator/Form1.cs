@@ -105,12 +105,7 @@ namespace Bulbulator
                 MessageBox.Show("Must be first number");
 
             }else
-                textBox1.Text = textBox1.Text + ",";
-            try
-            {
-                double b = Convert.ToDouble(textBox1.Text);
-            }catch(FormatException)
-            { textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1); }
+                textBox1.Text = textBox1.Text + ".";
         }
 
     }
